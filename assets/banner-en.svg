@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="Danila Nelin — Junior DevOps / SRE Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#132036"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3fb950" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#3fb950" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+    .flow { stroke-dasharray: 6 8; animation: flow 1.4s linear infinite; }
+    .cursor { animation: blink 1.1s steps(1) infinite; }
+    @keyframes flow { to { stroke-dashoffset: -28; } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .flow, .cursor { animation: none; } }
+  </style>
+
+  <rect width="1280" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="18" fill="url(#grid)"/>
+
+  <!-- terminal window -->
+  <circle cx="34" cy="30" r="6" fill="#ff5f56"/>
+  <circle cx="54" cy="30" r="6" fill="#ffbd2e"/>
+  <circle cx="74" cy="30" r="6" fill="#27c93f"/>
+
+  <text x="48" y="96" class="mono" font-size="20" fill="#8b949e"><tspan fill="#3fb950">spaster@prod</tspan>:~$ <tspan fill="#e6edf3">whoami</tspan></text>
+  <text x="46" y="152" class="sans" font-size="50" font-weight="700" fill="#f0f6fc">Danila Nelin</text>
+  <text x="48" y="194" class="sans" font-size="26" font-weight="600" fill="#58a6ff">Junior DevOps / SRE Engineer</text>
+  <text x="48" y="236" class="mono" font-size="17" fill="#8b949e">Docker · GitHub Actions · Prometheus · Grafana · Loki · k3s</text>
+  <text x="48" y="280" class="mono" font-size="20" fill="#8b949e"><tspan fill="#3fb950">spaster@prod</tspan>:~$</text>
+  <rect class="cursor" x="236" y="263" width="11" height="22" fill="#e6edf3"/>
+
+  <!-- pipeline: commit → test → build → deploy → monitor -->
+  <text x="760" y="70" class="mono" font-size="14" fill="#8b949e">main → prod</text>
+  <line x1="780" y1="120" x2="1220" y2="120" stroke="#30363d" stroke-width="3"/>
+  <line class="flow" x1="780" y1="120" x2="1220" y2="120" stroke="#3fb950" stroke-width="3"/>
+  <circle r="5" cy="120" fill="#7ee787">
+    <animate attributeName="cx" values="780;1220" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <g class="mono" font-size="14" fill="#c9d1d9" text-anchor="middle">
+    <g transform="translate(780 120)">
+      <circle r="20" fill="#0d1117" stroke="#3fb950" stroke-width="2.5"/>
+      <path d="M-7 0 l5 5 l9 -10" fill="none" stroke="#3fb950" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text y="46">commit</text>
+    </g>
+    <g transform="translate(890 120)">
+      <circle r="20" fill="#0d1117" stroke="#3fb950" stroke-width="2.5"/>
+      <path d="M-7 0 l5 5 l9 -10" fill="none" stroke="#3fb950" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text y="46">test</text>
+    </g>
+    <g transform="translate(1000 120)">
+      <circle r="20" fill="#0d1117" stroke="#3fb950" stroke-width="2.5"/>
+      <path d="M-7 0 l5 5 l9 -10" fill="none" stroke="#3fb950" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text y="46">build</text>
+    </g>
+    <g transform="translate(1110 120)">
+      <circle r="20" fill="#0d1117" stroke="#3fb950" stroke-width="2.5"/>
+      <path d="M-7 0 l5 5 l9 -10" fill="none" stroke="#3fb950" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text y="46">deploy</text>
+    </g>
+    <g transform="translate(1220 120)">
+      <circle r="20" fill="#0d1117" stroke="#58a6ff" stroke-width="2.5"/>
+      <path d="M-11 0 h5 l3 -8 l5 15 l3 -7 h6" fill="none" stroke="#58a6ff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text y="46">monitor</text>
+    </g>
+  </g>
+
+  <!-- latency chart under the SLO line -->
+  <line x1="760" y1="226" x2="1240" y2="226" stroke="#f0883e" stroke-width="1.5" stroke-dasharray="5 5" stroke-opacity="0.8"/>
+  <text x="1240" y="216" class="mono" font-size="13" fill="#f0883e" text-anchor="end">SLO p95 &lt; 300 ms</text>
+  <path d="M760 270 L790 262 L820 266 L850 255 L880 263 L910 258 L940 268 L970 252 L1000 260 L1030 256 L1060 266 L1090 250 L1120 259 L1150 262 L1180 254 L1210 261 L1240 257 L1240 290 L760 290 Z" fill="url(#area)"/>
+  <path d="M760 270 L790 262 L820 266 L850 255 L880 263 L910 258 L940 268 L970 252 L1000 260 L1030 256 L1060 266 L1090 250 L1120 259 L1150 262 L1180 254 L1210 261 L1240 257" fill="none" stroke="#3fb950" stroke-width="2.2" stroke-linejoin="round"/>
+</svg>
