@@ -2,15 +2,13 @@
 
 <img src="assets/banner.svg" alt="Нелин Данила — Junior DevOps / SRE-инженер" width="100%">
 
-<br><br>
-
 **Русский** · [English](./README.en.md)
 
 <a href="./Nelin-Danila-DevOps-CV.pdf"><img src="https://img.shields.io/badge/%D0%A0%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5-PDF-2ea44f?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Резюме PDF"></a>
 <a href="https://t.me/spaster"><img src="https://img.shields.io/badge/Telegram-@spaster-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
 <a href="mailto:nelindanila7@gmail.com"><img src="https://img.shields.io/badge/Email-nelindanila7@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 
-Москва, гибрид или удалёнка · МТУСИ, 09.03.02 «DevSecOps», 1 курс · английский B2
+Москва, гибрид или удалёнка · английский B2
 
 </div>
 
@@ -20,9 +18,9 @@
 
 Код тоже пишу сам: фуллстак на Vue 3, NestJS, TypeScript и Python. SolMeme, SolPump и PolyX сделаны мной целиком — сайт, бэкенд, боты, выкладка.
 
-| ~1 год | 14 + 6 | 2 место | Финал |
+| ~1 год | 14 · 6 | 2 место | Финалист |
 |:---:|:---:|:---:|:---:|
-| SolMeme в проде, сервер и выкладка на мне | алертов и дашбордов в SolPump | «Телеком будущего 2026», кейс МТС, я техлид | PROD 2026, 65/100 |
+| SolMeme в проде, сервер и выкладка на мне | алертов · дашбордов в SolPump | «Телеком будущего 2026», кейс МТС, я техлид | PROD 2026 |
 
 ## Стек
 
@@ -91,7 +89,7 @@
 
 | Где | Результат |
 |---|---|
-| **«Телеком будущего 2026»** (МТУСИ) | 2 место, кейс МТС №2 «SRE-платформа наблюдаемости». Проект MTC SRE, я техлид |
+| **«Телеком будущего 2026»** | 2 место, кейс МТС №2 «SRE-платформа наблюдаемости». Проект MTC SRE, я техлид |
 | **PROD 2026** | Финалист, индивидуальный этап 65/100. Кейс финала — Lotty |
 | **Технострелка 2025** | 1 место, кейс от Неймарк: платформа для общежитий |
 | **Хакатоны в Рязани** | 2 и 3 место |

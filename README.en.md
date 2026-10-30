@@ -2,15 +2,13 @@
 
 <img src="assets/banner-en.svg" alt="Danila Nelin — Junior DevOps / SRE Engineer" width="100%">
 
-<br><br>
-
 [Русский](./README.md) · **English**
 
 <a href="./Nelin-Danila-DevOps-CV-EN.pdf"><img src="https://img.shields.io/badge/CV-PDF-2ea44f?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="CV PDF"></a>
 <a href="https://t.me/spaster"><img src="https://img.shields.io/badge/Telegram-@spaster-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
 <a href="mailto:nelindanila7@gmail.com"><img src="https://img.shields.io/badge/Email-nelindanila7@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 
-Moscow, hybrid or remote · MTUCI, 09.03.02 “DevSecOps”, 1st year · English B2
+Moscow, hybrid or remote · English B2
 
 </div>
 
@@ -20,9 +18,9 @@ I ship services to production myself and keep them running: deploys, alerts, das
 
 I also write the code myself: fullstack with Vue 3, NestJS, TypeScript and Python. SolMeme, SolPump and PolyX are mine end to end: website, backend, bots, deploys.
 
-| ~1 year | 14 + 6 | 2nd place | Finalist |
+| ~1 year | 14 · 6 | 2nd place | Finalist |
 |:---:|:---:|:---:|:---:|
-| SolMeme in production, server and deploys on me | alert rules and dashboards in SolPump | “Telecom of the Future 2026”, MTS case, tech lead | PROD 2026, 65/100 |
+| SolMeme in production, server and deploys on me | alert rules · dashboards in SolPump | “Telecom of the Future 2026”, MTS case, tech lead | PROD 2026 |
 
 ## Stack
 
@@ -91,7 +89,7 @@ An internal service for teams: roll features out to a share of users, compare va
 
 | Where | Result |
 |---|---|
-| **“Telecom of the Future 2026”** (MTUCI) | 2nd place, MTS case #2 “SRE observability platform”. MTC SRE project, tech lead |
+| **“Telecom of the Future 2026”** | 2nd place, MTS case #2 “SRE observability platform”. MTC SRE project, tech lead |
 | **PROD 2026** | Finalist, individual stage 65/100. Final case — Lotty |
 | **Technostrelka 2025** | 1st place, Neymark case: a platform for student dormitories |
 | **Hackathons in Ryazan** | 2nd and 3rd place |
